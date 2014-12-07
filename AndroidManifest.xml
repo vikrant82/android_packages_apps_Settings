@@ -1915,6 +1915,8 @@
                        android:resource="@id/display_and_lights_settings" />
         </activity-alias>
 
+        <activity android:name=".WakeLockBlocker" />
+
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
                 android:label="@string/crypt_keeper_encrypt_title">
@@ -2269,6 +2271,10 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED"></action>
             </intent-filter>
         </receiver>
+
+        <activity android:name="com.android.settings.bliss.hfm.HfmWhitelist"
+                  android:label="@string/hfm_whitelist_title"
+                  android:taskAffinity="" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
