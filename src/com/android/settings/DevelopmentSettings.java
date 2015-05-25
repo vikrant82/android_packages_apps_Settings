@@ -613,7 +613,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateShowTouchesOptions();
         updateFlingerOptions();
         updateCpuUsageOptions();
-        updateAllOptions();
+        updateCpuInfoOptions();
         updateHardwareUiOptions();
         updateMsaaOptions();
         updateTrackFrameTimeOptions();
