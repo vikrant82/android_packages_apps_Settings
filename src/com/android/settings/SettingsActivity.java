@@ -325,7 +325,7 @@ public class SettingsActivity extends Activity
             NotificationManagerSettings.class.getName(),
             LockScreenSettings.class.getName(),
             LiveDisplay.class.getName(),
-            DisplayRotation.class.getName()
+            DisplayRotation.class.getName(),
             WakeLockBlocker.class.getName()
     };
 
