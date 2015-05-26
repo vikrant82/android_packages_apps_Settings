@@ -2272,10 +2272,6 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name="com.android.settings.bliss.hfm.HfmWhitelist"
-                  android:label="@string/hfm_whitelist_title"
-                  android:taskAffinity="" />
-
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.android.settings.files"
