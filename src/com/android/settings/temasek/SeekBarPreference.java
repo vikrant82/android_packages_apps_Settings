@@ -52,6 +52,9 @@ public class SeekBarPreference extends Preference implements OnSeekBarChangeList
     }
     
     private void setValuesFromXml(AttributeSet attrs) {
+        final TypedArray typedArray = getContext().obtainStyledAttributes(
+                attrs, R.styleable.SeekBarPreference);
+
         mMaxValue = attrs.getAttributeIntValue(ANDROIDNS, "max", 100);
         mMinValue = attrs.getAttributeIntValue(SETTINGS, "minn", 0);
         
