@@ -958,6 +958,12 @@
     <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- Whether the keyguard will directly pass to password entry -->
+    <string name="lock_directly_show_password">Directly show password entry</string>
+    <!-- Whether the keyguard will directly pass to pattern view -->
+    <string name="lock_directly_show_pattern">Directly show pattern view</string>
+    <!-- Whether the keyguard will directly pass to PIN entry -->
+    <string name="lock_directly_show_pin">Directly show PIN entry</string>
 
     <!-- Screen security -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
@@ -1019,6 +1025,7 @@
     <string name="qs_tile_heads_up">Heads up</string>
     <string name="qs_tile_ambient_display">Ambient display</string>
     <string name="qs_tile_sync">Sync</string>
+    <string name="qs_tile_battery_saver">Battery saver</string>
 
     <string name="qs_dynamic_tile_next_alarm">Next alarm</string>
     <string name="qs_dynamic_tile_ime_selector">IME selector</string>
